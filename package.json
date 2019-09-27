@@ -4,11 +4,16 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "echo \"Hello from saas\""
+    "sass": "node-sass -w scss/  -o dist/css/ --recursive"
   },
   "author": "Damian Ciasnocha",
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "My protfolio"
   }
 }
