@@ -238,7 +238,7 @@ main#home h1 {
 .about-info .bio-image {
   grid-area: bioimage;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 30%;
   border: #eece1a 3px solid;
 }
 
@@ -388,11 +388,11 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
 
-  .menu-branding .portrait {
+  /* .menu-branding .portrait {
     background: url("../img/photo_small.jpg");
     width: 250px;
     height: 250px;
-  }
+  } */
 
   .about-info {
     grid-template-areas: 'bioimage''bio''job1''job2''job3';
