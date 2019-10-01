@@ -247,12 +247,20 @@ main#home h1 {
   font-size: 1.5rem;
 }
 
-.about-info .job-1 {
+.about-info .job-1 ul {
   grid-area: job1;
+  list-style-type: none;
+  text-align: center;
+
+
+
 }
 
-.about-info .job-2 {
+.about-info .job-2 ul {
   grid-area: job2;
+  list-style-type: none;
+  text-align: center;
+
 }
 
 .about-info .job-3 {
@@ -394,9 +402,11 @@ main#home h1 {
     height: 250px;
   } */
 
-  .about-info {
+  .about-info ul {
     grid-template-areas: 'bioimage''bio''job1''job2''job3';
     grid-template-columns: 1fr;
+    list-style-type: none;
+    text-align: center;
   }
 
   .projects {
